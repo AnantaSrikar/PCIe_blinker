@@ -1,0 +1,5 @@
+
+NET "clk" LOC = K3;
+NET "LED[0]" LOC = C1;
+NET "LED[1]" LOC = C2;
+NET "LED[2]" LOC = U1;
