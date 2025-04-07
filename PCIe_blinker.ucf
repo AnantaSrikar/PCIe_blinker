@@ -1,5 +1,6 @@
 
-NET "clk" LOC = K3;
+
+INST "pcie_ep_instance/GT_i/tile0_gtpa1_dual_wrapper_i/gtpa1_dual_i" LOC = GTPA1_DUAL_X0Y0; # Taken from the example_project
 NET "LED[0]" LOC = C1;
 NET "LED[1]" LOC = C2;
 NET "LED[2]" LOC = U1;

@@ -5,28 +5,307 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v" Line 38: Port <arg fmt="%s" index="1">trn_lnk_up_n</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 458: Assignment to <arg fmt="%s" index="1">mim_rx_rdata_unused</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper.v" Line 194: Assignment to <arg fmt="%s" index="1">tied_to_ground_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper.v" Line 195: Assignment to <arg fmt="%s" index="1">tied_to_ground_vec_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper.v" Line 196: Assignment to <arg fmt="%s" index="1">tied_to_vcc_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper.v" Line 197: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 226: Assignment to <arg fmt="%s" index="1">tied_to_vcc_vec_i</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cnt_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_blinker</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 573: Assignment to <arg fmt="%s" index="1">rxcharisk0_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 574: Assignment to <arg fmt="%s" index="1">rxcharisk1_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 577: Assignment to <arg fmt="%s" index="1">rxdisperr0_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 578: Assignment to <arg fmt="%s" index="1">rxdisperr1_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 579: Assignment to <arg fmt="%s" index="1">rxnotintable0_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/gtpa1_dual_wrapper_tile.v" Line 580: Assignment to <arg fmt="%s" index="1">rxnotintable1_float_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 539: Assignment to <arg fmt="%s" index="1">gt_rx_valid</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 773: Assignment to <arg fmt="%s" index="1">cfg_ltssm_state</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 786: Assignment to <arg fmt="%s" index="1">dbg_bad_dllp_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 787: Assignment to <arg fmt="%s" index="1">dbg_bad_tlp_lcrc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 788: Assignment to <arg fmt="%s" index="1">dbg_bad_tlp_seq_num</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 789: Assignment to <arg fmt="%s" index="1">dbg_bad_tlp_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 790: Assignment to <arg fmt="%s" index="1">dbg_dl_protocol_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 791: Assignment to <arg fmt="%s" index="1">dbg_fc_protocol_err_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 792: Assignment to <arg fmt="%s" index="1">dbg_mlfrmd_length</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 793: Assignment to <arg fmt="%s" index="1">dbg_mlfrmd_mps</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 794: Assignment to <arg fmt="%s" index="1">dbg_mlfrmd_tcvc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 795: Assignment to <arg fmt="%s" index="1">dbg_mlfrmd_tlp_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 796: Assignment to <arg fmt="%s" index="1">dbg_mlfrmd_unrec_type</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 797: Assignment to <arg fmt="%s" index="1">dbg_poistlpstatus</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 798: Assignment to <arg fmt="%s" index="1">dbg_rcvr_overflow_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 799: Assignment to <arg fmt="%s" index="1">dbg_reg_detected_correctable</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 800: Assignment to <arg fmt="%s" index="1">dbg_reg_detected_fatal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 801: Assignment to <arg fmt="%s" index="1">dbg_reg_detected_non_fatal</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 802: Assignment to <arg fmt="%s" index="1">dbg_reg_detected_unsupported</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 803: Assignment to <arg fmt="%s" index="1">dbg_rply_rollover_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 804: Assignment to <arg fmt="%s" index="1">dbg_rply_timeout_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 805: Assignment to <arg fmt="%s" index="1">dbg_ur_no_bar_hit</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 806: Assignment to <arg fmt="%s" index="1">dbg_ur_pois_cfg_wr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 807: Assignment to <arg fmt="%s" index="1">dbg_ur_status</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 808: Assignment to <arg fmt="%s" index="1">dbg_ur_unsup_msg</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 844: Assignment to <arg fmt="%s" index="1">pipe_tx_char_disp_val_a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v" Line 845: Assignment to <arg fmt="%s" index="1">pipe_tx_char_disp_val_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v" Line 38: Input port <arg fmt="%s" index="1">trn_td[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tbuf_av</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rbar_hit_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_nph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_npd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_ph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_pd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cplh</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cpld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_do</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_do</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_mmenable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pcie_link_state_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_bus_number</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_device_number</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_function_number</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_command</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_dstatus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_dcommand</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_lstatus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_lcommand</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_lnk_up_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tdst_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_terr_drop_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tcfg_req_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rsof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_reof_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rsrc_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rsrc_dsc_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_rerrfwd_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_rd_wr_done_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_err_cpl_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_msienable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_to_turnoff_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">trn_reset_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/PCIe_blinker.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">received_hot_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_ep_instance</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXCHARISK1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXDISPERR0_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXDISPERR1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXNOTINTABLE0_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXNOTINTABLE1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXCLKCORCNT0_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXCLKCORCNT1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXDATA1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXSTATUS1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_GTPCLKOUT1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_PLLLKDET1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RESETDONE1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXELECIDLE1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_PHYSTATUS1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXVALID0_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_RXVALID1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_TXN1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/srikar/projects/fpga/dragon-l/projects/PCIe_blinker/ipcore_dir/PCIe_IP/source/PCIe_IP.v</arg>&quot; line <arg fmt="%s" index="2">481</arg>: Output port &lt;<arg fmt="%s" index="3">TILE0_TXP1_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GT_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">waddr_i&lt;11:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">raddr_i&lt;11:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pll_base_i</arg> in unit <arg fmt="%s" index="2">pll_base_i</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
 </msg>
 
 </messages>
